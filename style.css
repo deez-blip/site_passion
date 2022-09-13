@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    background-color: beige;
+}
+
+
+/* HEADER */
 .nav-bar{
     text-align: end;
     background-color: black;
@@ -27,4 +33,33 @@ a{
 a:hover{
     color: grey;
     text-decoration: underline grey;
+}
+
+/* MAIN */
+
+.title_lalune{
+    text-align: center;
+    margin: 100px;
+}
+
+.solalune{
+    font-size: 100px;
+    color: rgb(75, 73, 73);
+}
+
+.image_solalune{
+    width: 570px;
+    height: 370px;
+    margin-left: 6.5%;
+}
+
+.text_solalune{
+    width: 570px;
+    height: 370px;
+    margin-right: 6.5%;
+}
+
+.main_div{
+    display: flex;
+    justify-content: space-between;
 }
