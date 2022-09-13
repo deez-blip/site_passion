@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    text-align: end;
+    background-color: black;
+}
+
+.ul_nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5%;
+}
+
+li{
+    padding-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline grey;
+}
